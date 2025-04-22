@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import './App.css';
 import { useEffect, useState } from 'react';
 import ScrollToTop from './components/ScrollToTpo';
+import HeaderBanner from './components/HeaderBannder';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <Navbar onToggleTheme={toggleTheme} currentTheme={theme} />
+      <HeaderBanner  onToggleTheme={toggleTheme} currentTheme={theme}/>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
