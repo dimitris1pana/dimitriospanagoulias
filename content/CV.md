@@ -1,7 +1,5 @@
-# Dimitrios P. Panagoulias, PhD
-
-**AI Researcher | MLOps Specialist |**
-
+# About me
+I am an AI researcher and MLOps specialist with a focus on AI-empowered medical applications. I have a strong background in computer science, business management, and academic research and writing. My work involves the development of innovative solutions that leverage artificial intelligence to enhance application delivery and operational efficiency in various sectors and domains.
 ## Professional Experience
 
 - **Adjunct Lecturer & Researcher**, University of Piraeus (2024–Present)
