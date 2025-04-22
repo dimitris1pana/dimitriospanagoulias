@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Dimitrios P. Panagoulias, PhD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AI Researcher | MLOps Specialist |**
 
-## Available Scripts
+## Professional Experience
 
-In the project directory, you can run:
+- **Adjunct Lecturer & Researcher**, University of Piraeus (2024–Present)
+  - Specializing in AI emp-applications, Natural language processing and Large language models
+  - (Under-Post)graduate Lecturing
+  - Research and Proposal Development
+  - Algorithm Optimization with practical applications in AI and machine learning
+  - Implementation and Evaluation of AI Systems
 
-### `npm start`
+- **General Manager**, Dermacen S.A. (2011–Present)
+  - Launched a Digital Portfolio: Introduced a new suite of digital services, driving traffic to a high-performing domain.
+  - Brand Expansion: Spearheaded initiatives to enhance brand awareness and market presence.
+  - Workflow Optimization: Digitized medical and data workflows to improve efficiency and provide actionable insights for informed decision-making by key stakeholders.
+  - Secured Funding: Led recapitalization efforts and secured EU funding to support strategic growth.
+  - Compliance Management: Implemented GDPR compliance measures and established best practices for data protection and operational integrity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Assistant to the Editor, Intelligent Decision Technologies (IDT) - IOS Press** (Since 2023, Remote)
+  - Review and Assess Research Submissions
+  - Co-coordinate Reviewer Assignments
+  - Develop Visual Summaries of Key Insights
+  - Conceptualize and Create Promotional Materials
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Founder & Developer, DiskInside Ltd (UK)** (Since 2018) www.diskinside.com
+  - Medical CRM: Developed and maintaining a subscription-based SaaS CRM platform with integrated invoicing.
+  - NuHealthSoft – Medical AI health optimization system.
+  - Dermatology Mole Mapping Software.
+  - Cloud Infrastructure Management: Designed and deployed AWS cloud infrastructures to ensure scalability, security, and reliability of applications.
+  - Medical Marketing Campaigns.
+  - Data analytics pipelines.
 
-### `npm test`
+## Education
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **PhD in AI-empowered Medical Applications**, University of Piraeus 
+- **Executive MBA**, University of Piraeus
+- **MSc in Computer Science**, University of Piraeus
+- **BSc in Business Management**, Athens University of Economics and Business
 
-### `npm run build`
+## Publications
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 30+ papers on AI, ML, and medical informatics.
+- Book: *Artificial Intelligence-Empowered Bio-Medical Applications*, Springer, 2025.
+[ReadMore]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## PC Member and Reviewer
+- International Conference on Computer Systems and Applications (IEEE/AICCSA 2024)
+- International Conference on Tools with Artificial Intelligence (IEEE/ICTAI 2023-2024)
+- International Conference on Information, Intelligence, Systems and Applications (IEEE/IISA 2023-2025)
+- International Conference on ICT Solutions for eHealth (IEEE/ICTS4eHealth 2025)
+- Reviewed >>30 articles for Elsevier Journals, MDPI, IDT, Frontiers
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Teaching Experience
+- Evaluating Multimodal Large Language Models: Benchmarks, Methods, and Analytical Approaches (Tutorial @AI4SE 2024)
+- Human-Computer Interaction (University of Piraeus, 3rd-year undergraduate program)
+- Natural Language Processing (University of Piraeus, 3rd-year undergraduate program)
+- Systems and signal processing (University of Piraeus, 3rd-year undergraduate program)
 
-### `npm run eject`
+## Skills
+- **Programming**: Python, C#, C++, React, FastAPI
+- **DevOps/MLOps**: AWS, Docker, Kubernetes, Microservices
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[LinkedIn](https://www.linkedin.com/in/dimitris-panagoulias-17a05217/) | [Website](https://diskinside.com) | [GitHub](https://github.com/dimitris1pana)
