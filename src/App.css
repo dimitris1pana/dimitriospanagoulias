@@ -24,6 +24,15 @@
   color: white;
 }
 
+.App-div {
+  padding: 25px 50px 75px;
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 20; /* optional: removes the default indentation */
+}
+
 .App-link {
   color: #61dafb;
 }
