@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import './App.css';
 import { useEffect, useState } from 'react';
+import ScrollToTop from './components/ScrollToTpo';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -22,6 +23,8 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <ScrollToTop />
+
     </div>
   );
 }

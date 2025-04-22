@@ -18,7 +18,6 @@ const About = () => {
         {content}
       </ReactMarkdown>
     </div>
-    <Navbar />
     </div>
 
   );

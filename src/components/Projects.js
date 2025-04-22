@@ -20,7 +20,6 @@ const Projects = () => {
         {content}
       </ReactMarkdown>
     </div>
-    <Navbar />
     </div>
   
 );
