@@ -1,5 +1,5 @@
 # Projects Overview 
-Below is a summary of my key projects, showcasing their objectives, methodologies, and current applications.
+Below is a summary of [my](https://dimitris1pana.github.io/dimitriospanagoulias/) key projects, showcasing their objectives, methodologies, and current applications.
 ## 🩺 MedicalGR – Medical CRM Platform
 **Summary:**  
 MedicalGR is a robust, fully-featured **Medical Customer Relationship Management (CRM) system** tailored for private clinics and healthcare professionals. Designed with flexibility and security in mind, it integrates appointment management, patient history tracking, communications, invoicing, and medical imaging.
@@ -14,7 +14,7 @@ MedicalGR is a robust, fully-featured **Medical Customer Relationship Management
 - .....
 
 **Current Use Case:**  
-Deployed at various medical practices & clinics with more than encrypted 3000 invoices per month sent to AADE
+Deployed at various medical practices & clinics with more than 3000 encrypted invoices per month sent to AADE
 
 **Website:** [medicalgr](https://diskinside.com/medicalgr)
 
