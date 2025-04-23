@@ -48,8 +48,14 @@ body.dark {
 }
 
 .navbar {
-  background-color: inherit;
-  padding: 10px 20px;
+  padding: 1rem;
+  position: relative;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-buttons {
@@ -61,7 +67,7 @@ body.dark {
   display: inline-flex;
   align-items: center;
   padding: 0.5rem 1rem;
-  background-color:inherit;
+  background-color: inherit;
   border: none;
   border-radius: 4px;
   text-decoration: none;
@@ -70,31 +76,57 @@ body.dark {
   transition: background-color 0.3s ease;
 }
 
-.nav-button:hover {
-  background-color: #e0e0e0;
-}
-
-.nav-button span {
-  margin-right: 0.5rem;
-}
-
-/* For dark theme support */
-[data-theme='dark'] .nav-button {
-  background-color: #2a2a2a;
-}
-
-[data-theme='dark'] .nav-button:hover {
-  background-color: #3a3a3a;
-}
-.toggle-button {
-  margin-left: auto;
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
   cursor: pointer;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  background: transparent;
-  color: inherit;
+  padding: 0.5rem;
 }
 
+.no-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+  }
+
+  .nav-content {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .nav-content.active {
+    display: flex;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .toggle-button {
+    margin-top: 1rem;
+  }
+}
 
 @keyframes App-logo-spin {
   from {
@@ -103,4 +135,5 @@ body.dark {
   to {
     transform: rotate(360deg);
   }
+  
 }

@@ -7,6 +7,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import ScrollToTop from './components/ScrollToTpo';
 import HeaderBanner from './components/HeaderBannder';
+import Publications from './components/Publications';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -24,6 +25,8 @@ function App() {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/publications" element={<Publications />} />
+
       </Routes>
       <ScrollToTop />
 
