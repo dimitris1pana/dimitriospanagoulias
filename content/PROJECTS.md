@@ -52,6 +52,32 @@ Published in *Elsevier’s International Journal of Medical Informatics*. Develo
 
 ---
 
+## 🧠 CognetMD – Cognitive Network Evaluation Toolkit for Medical Domains
+
+**Dataset:** [COGNET-MD on Hugging Face](https://huggingface.co/datasets/DimitriosPanagoulias/COGNET-MD)  
+**Published Chapter:** [Springer LNNS 2024, Chapter 38](https://link.springer.com/chapter/10.1007/978-981-97-9559-8_38)
+
+**Summary:**  
+**COGNET-MD** is a benchmark dataset and evaluation framework developed for assessing the **correctness of responses from Large Language Models (LLMs)** in medical settings. It provides a curated collection of **Multiple Choice Quizzes (MCQs)** authored and reviewed by medical professionals, specifically targeting LLMs' reasoning accuracy in specialized domains.
+
+**Key Features:**
+- Covers five key medical fields: **Psychiatry, Dentistry, Pulmonology, Dermatology**, and **Endocrinology**
+- Includes MCQs with **varying difficulty levels** and **multiple correct answers**
+- Proposes a **custom scoring scheme** that:
+  - Awards **partial credit** for partially correct responses
+  - Assigns **full credit** for entirely correct answers
+  - **Penalizes** overconfidence by subtracting 0.5 points for each incorrect selection
+
+**Intended Use Cases:**
+- Fine-tuning and evaluation of domain-specific LLMs
+- Comparative benchmarking across general-purpose and medical-tuned models
+- Developing trustworthy, explainable AI systems for medical education and decision support
+
+**Relevance:**  
+CognetMD plays a foundational role in the evaluation loop of **Dermacen Analytica** and supports broader research efforts in **explainable medical AI and model validation**. It serves as a gold-standard dataset for future publications and applications involving LLM correctness in critical domains.
+
+---
+
 ## 🎨 Pinxel – AI Literacy-Based Personalization Engine
 
 **Summary:**  
