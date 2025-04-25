@@ -1,17 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HeaderBanner.css';
 
 const HeaderBanner = ({ theme }) => {
+  const [profile, setProfile] = React.useState(null);
+  useEffect(() => {
+    fetch(`${process.env.PUBLIC_URL}/content/header.json`)
+      .then((res) => res.json())
+      .then(setProfile)
+      .catch((err) => console.error("Error loading profile:", err));
+  }, []);
+  if (!profile) return null; // or loading state
+
   return (
     <div className={`header-banner ${theme}`}>
-      <h1 className="name">Dimitrios P. Panagoulias, PhD</h1>
-      <p className="subtitle">AI Researcher <span>|</span> MLOps Specialist</p>
+      <h1 className="name">{profile.name}</h1>
+      <p className="subtitle">{profile.subtitle}</p>
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/dimitris-panagoulias-17a05217/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <span> | </span>
-        <a href="https://diskinside.com" target="_blank" rel="noopener noreferrer">Website</a>
+        <a href={profile.links.website} target="_blank" rel="noopener noreferrer">Website</a>
         <span> | </span>
-        <a href="https://github.com/dimitris1pana" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href={profile.links.github} target="_blank" rel="noopener noreferrer">Other</a>
       </div>
     </div>
   );

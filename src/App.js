@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import ScrollToTop from './components/ScrollToTpo';
 import HeaderBanner from './components/HeaderBannder';
 import Publications from './components/Publications';
+import { Helmet } from 'react-helmet';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -20,6 +21,10 @@ function App() {
 
   return (
     <div>
+      <Helmet>
+  <title>dim's CV | ExpandaMe</title>
+  <meta name="description" content={`Check out d's CV on ExpandaMe`} />
+</Helmet>
       <Navbar onToggleTheme={toggleTheme} currentTheme={theme} />
       <HeaderBanner  onToggleTheme={toggleTheme} currentTheme={theme}/>
       <Routes>
