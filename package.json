@@ -26,9 +26,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-"predeploy": "npm run build && mkdir -p build/dimitriospanagoulias && cp -r build/index.html build/static build/asset-manifest.json build/manifest.json build/favicon.ico build/logo*.png build/robots.txt build/dimitriospanagoulias/",   
- "deploy": "gh-pages -d build/dimitriospanagoulias",
-    "test": "react-scripts test",
+    "predeploy": "npm run build && mkdir -p temp && cp -r build/* temp && mkdir -p build/dimitriospanagoulias && cp -r temp/* build/dimitriospanagoulias && rm -rf temp",
+    "deploy": "gh-pages -d build/dimitriospanagoulias",
+      "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
